@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors'
 import dotenv from 'dotenv';
-const formData = require('form-data');
-const Mailgun = require('mailgun.js');
+import formData from 'form-data';
+import Mailgun from 'mailgun.js';
 
 dotenv.config()
 
